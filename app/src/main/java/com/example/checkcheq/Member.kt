@@ -6,30 +6,32 @@ class Member {
     private var _status: Boolean
     private var _summ: Int
 
-    init{
+    init {
         _name = ""
         _status = false
         _summ = 0
     }
 
-    constructor(name: String, status: Boolean){
+    constructor(name: String, status: Boolean) {
         _name = name
         _status = status
     }
 
-    constructor(name: String, status: Boolean, summ: Int) : this(name, status){
+    constructor(name: String, status: Boolean, summ: Int) : this(name, status) {
         _summ = summ
     }
 
 
     //GETTER'S
-    fun getName() : String {
+    fun getName(): String {
         return _name
     }
-    fun getStatus() : Boolean {
+
+    fun getStatus(): Boolean {
         return _status
     }
-    fun getSumm() : Int {
+
+    fun getSumm(): Int {
         return _summ
     }
 
@@ -38,9 +40,11 @@ class Member {
     fun setName(name: String) {
         this._name = name
     }
+
     fun setStatus(status: Boolean) {
         this._status = status
     }
+
     fun setSumm(summ: Int) {
         this._summ = summ
     }

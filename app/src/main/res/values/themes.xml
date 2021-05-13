@@ -6,11 +6,11 @@
         <item name="colorPrimaryVariant">@color/darkRed</item>
         <item name="colorOnPrimary">@color/white</item>
         <!-- Secondary brand color. -->
-        <item name="colorSecondary">@color/teal_200</item>
+        <item name="colorSecondary">@color/middle_grey</item>
         <item name="colorSecondaryVariant">@color/darkRed</item>
         <item name="colorOnSecondary">@color/black</item>
         <item name="fontFamily">sans-serif</item>
-        <item name="android:textColorHint">@color/gray</item>
+        <item name="android:textColorHint">@color/grey</item>
         <!-- Status bar color. -->
         <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
         <!-- Customize your theme here. -->
